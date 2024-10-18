@@ -1,6 +1,9 @@
 .display-flex {
   display: flex;
 }
+.flex-direction-column {
+  flex-direction: column;
+}
 header {
   width: 100%;
   height: 90px;
@@ -14,13 +17,21 @@ header ul a {
 }
 .banner {
   background-image: url(/images/Banner.png);
-  background-size: 100% 500px;
+  background-size: auto 100%;
   background-repeat: no-repeat;
+  height: 734px;
+  background-position: center;
 }
 .banner .banner-word {
   height: 520px;
   font-size: 40px;
   font-weight: bolder;
+  padding-top: 200px;
+}
+.banner .banner-word div:last-child {
+  height: 520px;
+  font-size: 40px;
+  font-weight: 400;
 }
 .banner .banner-content {
   height: 129px;
@@ -31,4 +42,11 @@ header ul a {
 .banner footer.row {
   width: 100%;
   --bs-gutter-x: auto;
+}
+.big-number {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.align-items-baseline {
+  align-items: baseline;
 }
