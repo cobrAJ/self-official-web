@@ -50,3 +50,23 @@ header ul a {
 .align-items-baseline {
   align-items: baseline;
 }
+.index-project {
+  margin: auto;
+  padding: 100px;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-left {
+  text-align: left;
+}
+.project-content {
+  margin-top: 50px;
+}
+.project-content > div > div {
+  height: 225px;
+  background-image: linear-gradient(#eceded, #fbfbfc);
+}
+.pd-20 {
+  padding: 20px;
+}
