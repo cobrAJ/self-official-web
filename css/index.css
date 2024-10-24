@@ -53,6 +53,7 @@ header ul a {
 .index-project {
   margin: auto;
   padding: 100px;
+  height: 540px;
 }
 .text-align-center {
   text-align: center;
@@ -69,4 +70,34 @@ header ul a {
 }
 .pd-20 {
   padding: 20px;
+}
+.index-project-content {
+  height: 60px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.common-second-title {
+  font-size: 24px;
+  color: #333;
+  font-family: 'Source Han Sans CN';
+}
+.project-1 {
+  height: 620px;
+  background-image: url(/images/案例详情Banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.overlay {
+  padding: 100px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255 255 255 /80%);
+}
+.project-1-content {
+  padding: 360px 100px;
 }
