@@ -101,3 +101,62 @@ header ul a {
 .project-1-content {
   padding: 360px 100px;
 }
+
+
+/** 案例样式 */
+.case-header header ul a {
+  color: #333333 !important;
+}
+.case-header header {
+  background-color: white;
+}
+.case-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.case-body img {
+  width: 590px;
+  height: 442px;
+  object-fit: cover;
+}
+.aikang {
+   display: inline-block;
+}
+.aikang img {
+  position: absolute;
+  border-radius: 40px;
+}
+.aikang label {
+  margin-top: 360px;
+  height: 80px;
+  width: 590px;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  border-radius: 0 0 40px 40px;
+}
+.aikang label span {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.ml-1 {
+  margin-left: 1em;
+}
+.case-footer {
+  background: #242E32;
+  height: 452px;
+  color: white;
+}
+.case-body p {
+  line-height: 26px;
+}
+
+/** footer 样式 */
+.copyright {
+  opacity: 50%;
+  height: 60px;
+  border-top: 1px solid white;
+  text-align: center;
+  line-height: 60px;
+}
