@@ -1,20 +1,29 @@
-.display-flex {
-  display: flex;
+body {
+  color: #333
 }
+
+.display-flex {
+  display: flex !important;
+}
+
 .flex-direction-column {
   flex-direction: column;
 }
+
 header {
   width: 100%;
   height: 90px;
   background-color: #00000040;
 }
+
 header .logo {
   height: calc(90px - 2rem);
 }
+
 header ul a {
   color: white !important;
 }
+
 .banner {
   background-image: url(/images/Banner.png);
   background-size: auto 100%;
@@ -22,85 +31,164 @@ header ul a {
   height: 734px;
   background-position: center;
 }
+
 .banner .banner-word {
   height: 520px;
   font-size: 40px;
   font-weight: bolder;
   padding-top: 200px;
 }
+
 .banner .banner-word div:last-child {
   height: 520px;
   font-size: 40px;
   font-weight: 400;
 }
+
 .banner .banner-content {
   height: 129px;
   background-color: #ffffff40;
   width: 100%;
   backdrop-filter: saturate(50%) blur(4px);
 }
+
 .banner footer.row {
   width: 100%;
   --bs-gutter-x: auto;
 }
+
 .big-number {
   font-size: 30px;
   font-weight: bolder;
 }
+
 .align-items-baseline {
   align-items: baseline;
 }
+
 .index-project {
   margin: auto;
   padding: 100px;
   height: 540px;
 }
+
 .text-align-center {
   text-align: center;
 }
+
 .text-align-left {
   text-align: left;
 }
+
 .project-content {
   margin-top: 50px;
 }
-.project-content > div > div {
+
+.project-content>div>div {
   height: 225px;
   background-image: linear-gradient(#eceded, #fbfbfc);
 }
+
 .pd-20 {
   padding: 20px;
 }
+
 .index-project-content {
   height: 60px;
 }
+
 .mt-30 {
   margin-top: 30px;
 }
+
+.mt-20{
+  margin-top: 20px;
+}
+
 .mt-15 {
   margin-top: 15px;
 }
+
 .common-second-title {
   font-size: 24px;
   color: #333;
   font-family: 'Source Han Sans CN';
 }
+
 .project-1 {
-  height: 620px;
+  /* height: 620px; */
   background-image: url(/images/案例详情Banner.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: #445B65;
+}
+
 .overlay {
   padding: 100px;
   width: 100%;
   height: 100%;
   background-color: rgb(255 255 255 /80%);
 }
+
 .project-1-content {
   margin: 100px 70px;
-  background-color: red;
+  background-color: rgb(255 255 255 /80%);
+}
+
+.project-1-content .nav button {
+  width: 170px;
+  height: 50px;
+  color: #333;
+  font-size: 14px
+}
+
+.project-1-content .tab-content {
+  text-align: left;
+}
+
+.project-1-content .tab-content .tab-content-text{
+  padding: 50px 30px;
+  width: calc(100% - 260px);
+}
+
+.project-1-content .tab-content-title {
+  margin-bottom: 20px;
+  border: none;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.project-1-content .tab-content-content {
+  font-size: 14px;
+  line-height: 22px;
+  height: 110px;
+}
+
+.project-1-content .images {
+  width: 260px;
+  padding: 30px 10px 10px 0px;
+  text-align: center;
+}
+.project-1-content .images img{
+  height: 90px;
+}
+
+.project-1-content .tab-content-footer {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+button.btn.btn-secondary {
+  background-color: #445B65;
+}
+
+button.btn.btn-outline-secondary:hover {
+  background-color: #445B65;
 }
 
 
@@ -108,26 +196,32 @@ header ul a {
 .case-header header ul a {
   color: #333333 !important;
 }
+
 .case-header header {
   background-color: white;
 }
+
 .case-banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .case-body img {
   width: 590px;
   height: 442px;
   object-fit: cover;
 }
+
 .aikang {
-   display: inline-block;
+  display: inline-block;
 }
+
 .aikang img {
   position: absolute;
   border-radius: 40px;
 }
+
 .aikang label {
   margin-top: 360px;
   height: 80px;
@@ -137,18 +231,26 @@ header ul a {
   color: white;
   border-radius: 0 0 40px 40px;
 }
+
 .aikang label span {
   margin-top: 30px;
   margin-left: 30px;
 }
+
 .ml-1 {
   margin-left: 1em;
 }
+
+.mr-20 {
+  margin-right: 20px;
+}
+
 .case-footer {
   background: #242E32;
   height: 452px;
   color: white;
 }
+
 .case-body p {
   line-height: 26px;
 }
@@ -160,4 +262,9 @@ header ul a {
   border-top: 1px solid white;
   text-align: center;
   line-height: 60px;
+}
+
+.border-radius {
+  border-radius: 20px;
+  overflow: hidden;
 }
