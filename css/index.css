@@ -3,7 +3,7 @@ body {
 }
 
 .display-flex {
-  display: flex !important;
+  display: flex;
 }
 
 .flex-direction-column {
@@ -22,6 +22,27 @@ header .logo {
 
 header ul a {
   color: white !important;
+}
+
+header ul li.active::after {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 5px solid rgba(68, 91, 101, 1);
+  margin-left: calc(50% - 15px);
+}
+
+header ul li.active-white::after {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 5px solid #fff;
+  margin-left: calc(50% - 15px);
+}
+
+header ul li {
+  margin-left: 50px;
+  text-align: center;
 }
 
 .banner {
@@ -69,7 +90,7 @@ header ul a {
 .index-project {
   margin: auto;
   padding: 100px;
-  height: 540px;
+  /* height: 540px; */
 }
 
 .text-align-center {
@@ -87,6 +108,16 @@ header ul a {
 .project-content>div>div {
   height: 225px;
   background-image: linear-gradient(#eceded, #fbfbfc);
+  border-radius: 20px;
+}
+
+.project-content>div>div .title {
+  font-family: Source Han Sans CN;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+
 }
 
 .pd-20 {
@@ -192,6 +223,82 @@ button.btn.btn-outline-secondary:hover {
   background-color: #445B65;
 }
 
+.company-news .news-content {
+  padding-bottom: 100px;
+}
+
+.company-news .title {
+  padding: 100px;
+  font-family: Source Han Sans CN;
+  font-size: 24px;
+}
+
+.about-us {
+  background: #F7F7F7;
+}
+
+.about-us .title {
+  padding: 100px;
+  font-family: Source Han Sans CN;
+  font-size: 24px;
+}
+
+.about-us .about-us-content {
+  padding-bottom: 120px;
+}
+
+.about-us .about-us-content .content {
+  height: 280px;
+  width: 580px;
+  background-color: white;
+  padding: 50px 30px;
+}
+
+.about-us .about-us-content .content div:first-child {
+  font-family: Source Han Sans CN;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.about-us .about-us-content .content div:nth-child(2) {
+  font-family: Source Han Sans CN;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.solution .project-content>div>div {
+  height: 350px;
+}
+
+.solution .middle-pic {
+  background-image: url(/images/官网.png);
+  background-size: cover;
+  height: 650px;
+}
+
+.show-data {
+  padding-top: 55px;
+  padding-bottom: 30px;
+  background-image: url(/images/数据展现.png);
+  background-size: cover;
+  color: white;
+}
+
+.mt-40 {
+  margin-top: 40px
+}
+
+.border-radius {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-news {
+  width: 385px;
+  border-radius: 30px;
+}
+
 
 /** 案例样式 */
 .case-header header ul a {
@@ -242,15 +349,27 @@ button.btn.btn-outline-secondary:hover {
   margin-left: 1em;
 }
 
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mt-50 {
+  margin-top: 50px
+}
+
+.mt-10 {
+  margin-top: 10px
+}
+
+
 .mr-20 {
   margin-right: 20px;
 }
 
-.case-footer {
-  background: #242E32;
-  height: 452px;
-  color: white;
+.mr-10 {
+  margin-right: 10px;
 }
+
 
 .case-body p {
   line-height: 26px;
@@ -300,26 +419,44 @@ button.btn.btn-outline-secondary:hover {
 }
 
 /** footer 样式 */
+
+.case-footer {
+  background: #242E32;
+  height: 450px;
+  color: white;
+}
+
+.case-footer>div:first-child {
+  padding: 100px 200px 80px 200px;
+}
+
+.case-footer a {
+  color: white !important;
+}
+
+.case-footer .row>div h5 {
+  font-family: Source Han Sans CN;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 40px;
+
+}
+
+.case-footer .small-content {
+  font-family: Source Han Sans CN;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7) !important;
+
+
+}
+
 .copyright {
-  opacity: 50%;
   height: 60px;
-  border-top: 1px solid white;
+  border-top: 1px solid rgb(255 255 255 /20%);
   text-align: center;
   line-height: 60px;
-}
-
-.company-news .title {
-  padding: 100px;
-  font-family: Source Han Sans CN;
-  font-size: 24px;
-}
-
-.border-radius {
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.card-news {
-  width: 385px;
-  border-radius: 30px;
+  font-size: 12px;
 }
