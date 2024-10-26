@@ -101,7 +101,7 @@ header ul a {
   margin-top: 30px;
 }
 
-.mt-20{
+.mt-20 {
   margin-top: 20px;
 }
 
@@ -151,7 +151,7 @@ header ul a {
   text-align: left;
 }
 
-.project-1-content .tab-content .tab-content-text{
+.project-1-content .tab-content .tab-content-text {
   padding: 50px 30px;
   width: calc(100% - 260px);
 }
@@ -174,7 +174,8 @@ header ul a {
   padding: 30px 10px 10px 0px;
   text-align: center;
 }
-.project-1-content .images img{
+
+.project-1-content .images img {
   height: 90px;
 }
 
@@ -265,15 +266,15 @@ button.btn.btn-outline-secondary:hover {
   background-color: #e3f1fc;
 }
 
-.join-us{
+.join-us {
   width: 1200px;
   background-color: #ffffff;
   border-radius: 20px;
 }
 
 .join-us-text {
-  width: 386px; 
-  height: 510px; 
+  width: 386px;
+  height: 510px;
   margin: 20px 30px;
 }
 
@@ -284,12 +285,15 @@ button.btn.btn-outline-secondary:hover {
 .ml-106 {
   margin-left: 106px;
 }
+
 .join-us img {
   border-radius: 0px 20px 20px 0px;
 }
+
 .height-78 {
   height: 78px;
 }
+
 .justify-center {
   align-items: center;
   justify-content: space-between;
@@ -304,7 +308,18 @@ button.btn.btn-outline-secondary:hover {
   line-height: 60px;
 }
 
+.company-news .title {
+  padding: 100px;
+  font-family: Source Han Sans CN;
+  font-size: 24px;
+}
+
 .border-radius {
   border-radius: 20px;
   overflow: hidden;
+}
+
+.card-news {
+  width: 385px;
+  border-radius: 30px;
 }
