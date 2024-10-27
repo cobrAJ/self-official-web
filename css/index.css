@@ -277,12 +277,65 @@ button.btn.btn-outline-secondary:hover {
   height: 650px;
 }
 
+.solution .service-progress {
+  padding-bottom: 60px;
+}
+
+.solution .service-progress img {
+  height: 120px;
+}
+
+.solution .service-progress>.title {
+  padding: 100px;
+  font-family: Source Han Sans CN;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+.solution .service-progress .progress-item>div {
+  width: 180px;
+  height: 270px;
+  background: linear-gradient(180deg, #EBECED 0%, rgba(235, 236, 237, 0.24) 97.04%);
+  text-align: center;
+  font-size: 14px;
+  margin-right: 60px;
+}
+
+.solution .service-progress .progress-item:last-child>div {
+  margin-right: 0;
+}
+
+.solution .service-progress .progress-item:nth-child(odd)>div {
+  margin-top: 30px;
+}
+
+.solution .service-progress .progress-item .number {
+  font-family: Source Han Sans CN;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 34px;
+  padding: 30px 0 15px 0;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+.solution .service-progress .progress-item .title {
+  font-family: Source Han Sans CN;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
 .show-data {
   padding-top: 55px;
   padding-bottom: 30px;
   background-image: url(/images/数据展现.png);
   background-size: cover;
   color: white;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
 }
 
 .mt-40 {
