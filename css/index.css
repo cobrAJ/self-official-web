@@ -117,11 +117,14 @@ header ul li {
   font-weight: 700;
   line-height: 16px;
   text-align: left;
-
 }
 
 .pd-20 {
   padding: 20px;
+}
+
+.pd-40 {
+  padding: 40px;
 }
 
 .index-project-content {
@@ -141,9 +144,11 @@ header ul li {
 }
 
 .common-second-title {
+  font-family: Source Han Sans CN;
   font-size: 24px;
-  color: #333;
-  font-family: 'Source Han Sans CN';
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
 }
 
 .project-1 {
@@ -228,6 +233,7 @@ button.btn.btn-outline-secondary:hover {
 }
 
 .company-news .title {
+  font-weight: 900;
   padding: 100px;
   font-family: Source Han Sans CN;
   font-size: 24px;
@@ -241,6 +247,7 @@ button.btn.btn-outline-secondary:hover {
   padding: 100px;
   font-family: Source Han Sans CN;
   font-size: 24px;
+  font-weight: 900;
 }
 
 .about-us .about-us-content {
@@ -269,10 +276,23 @@ button.btn.btn-outline-secondary:hover {
 
 .solution .project-content>div>div {
   height: 350px;
+  padding: 40px 30px;
 }
 
 .solution .middle-pic {
   background-image: url(/images/官网.png);
+  background-size: cover;
+  height: 650px;
+}
+
+.solution .middle-pic-1 {
+  background-image: url(/images/121212-1.png);
+  background-size: cover;
+  height: 650px;
+}
+
+.solution .middle-pic-2 {
+  background-image: url(/images/solution-2.png);
   background-size: cover;
   height: 650px;
 }
@@ -326,6 +346,233 @@ button.btn.btn-outline-secondary:hover {
   line-height: 16px;
 }
 
+.solution .our-project {
+  padding-bottom: 100px;
+}
+
+.solution .our-project .title {
+  padding: 100px;
+  font-family: Source Han Sans CN;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+.solution .our-project .our-project-content .card {
+  width: 390px;
+  height: 380px;
+}
+
+.solution .why-us {
+  background: rgba(68, 91, 101, 0.05);
+  padding-bottom: 100px;
+}
+
+.solution .why-us .common-second-title {
+  padding: 100px;
+}
+
+.solution .why-us>.content {
+  width: 1200px;
+  margin: auto;
+}
+
+.solution .why-us>.content .content-item {
+  background: rgba(255, 255, 255, 1);
+  width: 380px;
+  height: 260px;
+}
+
+.solution .why-us>.content .content-item .title {
+  font-family: Source Han Sans CN;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: left;
+}
+
+.solution .why-us>.content .content-item .content {
+  font-family: Source Han Sans CN;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.case-banner {
+  background-image: url(/images/case_detail_banner.png);
+  background-size: cover;
+  height: 460px;
+  padding: 100px 360px;
+}
+
+.solution .case-banner {
+  background-image: url(/images/solution_banner.png);
+  background-size: cover;
+  height: 460px;
+  padding: 100px 360px;
+}
+
+.case-banner>div:first-child {
+  font-family: Source Han Sans CN;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  text-align: left;
+}
+
+.case-banner>div:last-child {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+}
+
+.about .case-body {
+  background-color: #e3f1fc;
+  height: 550px;
+}
+
+.about .case-body>div:first-child .left {
+  padding: 40px 30px;
+  width: 460px;
+  height: 221px;
+  padding: 40px 30px 40px 30px;
+  border-radius: 20px 0px 0px 20px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.about .case-body>div:first-child .left .title {
+  font-family: Source Han Sans CN;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.about .case-body>div:first-child .left .content {
+  font-family: Source Han Sans CN;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.about .case-body>div:first-child .right>div>img {
+  width: 370px;
+  object-fit: cover;
+  height: 220px;
+}
+
+.about .case-body>div:first-child .right {
+  width: 740px;
+  height: 400px;
+  border-radius: 20px;
+  background: rgba(68, 91, 101, 1);
+}
+
+.about .case-body>div:first-child .right .content {
+  padding: 40px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: -220px;
+}
+
+.about .case-body>div:first-child .right .content div:nth-child(2) {
+  font-family: Source Han Sans CN;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: left;
+}
+
+.about .case-body>div:first-child .right .content div:last-child {
+  font-family: Source Han Sans CN;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+}
+
+.about .case-body>div:first-child .right .content img {
+  width: 24px;
+  height: 24px;
+}
+
+.solution .IOT-project .project-content>div>div {
+  width: 285px;
+  height: 320px;
+  gap: 0px;
+  background: rgba(68, 91, 101, 0.05);
+  padding: 0;
+}
+
+.solution .IOT-project .project-content>div>div .title {
+  text-align: center;
+  font-family: Source Han Sans CN;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.about .map-show .title {
+  font-family: Source Han Sans CN;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.solution .IOT-project .project-content .index-project-content {
+  width: 285px;
+  height: 200px;
+}
+
+.solution .our-service {
+  background: rgba(68, 91, 101, 0.05);
+}
+
+.solution .our-service .common-second-title {
+  padding: 100px;
+}
+
+.solution .our-service>div:last-child {
+  padding-bottom: 100px;
+}
+
+.solution .our-service .content-item {
+  width: 285px;
+  height: 285px;
+}
+
+.solution .our-service .content-item img {
+  height: 150px;
+}
+
+.solution .our-service .content-item .title {
+  font-family: Source Han Sans CN;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.solution .our-service .content-item .content {
+  font-family: Source Han Sans CN;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: rgba(51, 51, 51, 1);
+}
+
+
+
+.case-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 .show-data {
   padding-top: 55px;
   padding-bottom: 30px;
@@ -360,12 +607,6 @@ button.btn.btn-outline-secondary:hover {
 
 .case-header header {
   background-color: white;
-}
-
-.case-banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .case-body img {
@@ -404,6 +645,10 @@ button.btn.btn-outline-secondary:hover {
 
 .ml-10 {
   margin-left: 10px;
+}
+
+.ml-30 {
+  margin-left: 30px;
 }
 
 .mt-50 {
